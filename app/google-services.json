@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "398599986170",
+    "firebase_url": "https://echomall.firebaseio.com",
+    "project_id": "echomall",
+    "storage_bucket": "echomall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398599986170:android:0299d370c30861f6",
+        "android_client_info": {
+          "package_name": "dz.uc2.sci.echomall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398599986170-pgtj0h8800bg2q2mf7a2aq6cvhsd4elk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuOK6GYE-wBEeJbW-ij0UB1KcVFYj7KmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398599986170-pgtj0h8800bg2q2mf7a2aq6cvhsd4elk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
