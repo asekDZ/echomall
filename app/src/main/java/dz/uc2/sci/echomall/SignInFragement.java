@@ -6,11 +6,13 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 /**
@@ -24,6 +26,8 @@ public class SignInFragement extends Fragment {
     }
 
     private TextView dontHaveAccount;
+    private TextView forgetpassword;
+
     private FrameLayout parentFrameLayout;
 
     @Override
@@ -32,20 +36,31 @@ public class SignInFragement extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_sign_in, container, false);
         dontHaveAccount = view.findViewById(R.id.tv_newcompte);
+        forgetpassword = view.findViewById(R.id.sign_in_forget);
         parentFrameLayout= getActivity().findViewById(R.id.register_framelayout);
+
         return view;
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        forgetpassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+
+                setFragment(new ResetPasswordFragment());
+            }
+        });
         dontHaveAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 setFragment(new SignUpFragment());
             }
         });
+
+
     }
 
     private void setFragment(Fragment fragment) {
