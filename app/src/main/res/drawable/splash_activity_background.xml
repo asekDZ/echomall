@@ -7,6 +7,6 @@
         </shape>
     </item>
     <item>
-        <bitmap android:src="@drawable/logo" android:gravity="center"/>
+        <bitmap android:src="@drawable/logosplash" android:gravity="center"/>
     </item>
 </layer-list>

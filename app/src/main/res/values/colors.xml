@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#E9BF04</color>
-    <color name="colorPrimaryDark">#FDCF08</color>
+    <color name="colorPrimary">#fccd05</color>
+    <color name="colorPrimaryDark">#c49d00</color>
     <color name="colorAccent">#002d3b</color>
     <color name="colobtn">#FDCF08</color>
     <color name="maron">#8F6B5B</color>
+    <color name="primaryDarkColor">#c49d00</color>
+    <color name="primaryTextColor">#000000</color>
 
 </resources>
